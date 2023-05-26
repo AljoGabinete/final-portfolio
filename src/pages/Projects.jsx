@@ -55,34 +55,33 @@ const Projects = () => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <div
-              className='absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue'
-            >
-              <p className='text-2xl font-playfair'>Project 1</p>
+            <img src={`../assets/project1.png`} alt='title' className='h-30' />
+            <div className='mobile-description mt-2 text-center'>
+              <p className='text-2xl font-playfair'>First Portfolio Project</p>
               <p>
-                This is the fist project that I made with the use of HTML and
-                CSS.This is the first portfolio that I made wherein it is made
-                to showcase what I have learned sofar using html and css
+                This is the first project that I made with the use of HTML and
+                CSS. This is the first portfolio that I made wherein it is made
+                to showcase what I have learned so far using HTML and CSS.
               </p>
               <div className='flex gap-1 mt-2'>
                 <a
-                  className='bg-deepblue  text-black border border-black  bg-green rounded-2xl py-1 px-1 font-semibold'
-                  target='blank'
+                  className='bg-deepblue text-black border border-black bg-green rounded-2xl py-1 px-1 font-semibold m-auto'
+                  target='_blank'
+                  rel='noreferrer'
                   href='https://github.com/AljoGabinete/Portfolio'
                 >
                   View Code
                 </a>
                 <a
-                  className='bg-deepblue  text-black border  border-black  bg-green rounded-2xl  py-1 px-1  font-semibold'
-                  target='blank'
+                  className='bg-deepblue text-black border border-black bg-green rounded-2xl py-1 px-1 font-semibold m-auto'
+                  target='_blank'
+                  rel='noreferrer'
                   href='https://agabinete-portfolio.netlify.app/'
                 >
                   View Live Demo
                 </a>
               </div>
             </div>
-            <img src={`../assets/project1.png`} alt='title' className='h-30' />
           </motion.div>
 
           <motion.div
@@ -96,11 +95,9 @@ const Projects = () => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <div
-              className='absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue'
-            >
-              <p className='text-2xl font-playfair'>Project 2</p>
+            <img src={`../assets/project2.png`} alt='title' />
+            <div className='mobile-description mt-2 text-center'>
+              <p className='text-2xl font-playfair'>2048 Game Clone</p>
               <p>
                 This is my second project, this is something I made with
                 javascript. A simple 2048 game clone that you can play using the
@@ -108,22 +105,23 @@ const Projects = () => {
               </p>
               <div className='flex gap-1 mt-2'>
                 <a
-                  className='bg-deepblue  text-black border border-black  bg-green rounded-2xl py-1 px-1 font-semibold'
+                  className='bg-deepblue  text-black border border-black  bg-green rounded-2xl py-1 px-1 font-semibold m-auto'
                   target='blank'
+                  rel='noreferrer'
                   href='https://github.com/AljoGabinete/Doubles'
                 >
                   View Code
                 </a>
                 <a
-                  className='bg-deepblue  text-black border  border-black  bg-green rounded-2xl  py-1 px-1  font-semibold'
+                  className='bg-deepblue  text-black border  border-black  bg-green rounded-2xl  py-1 px-1  font-semibold m-auto'
                   target='blank'
+                  rel='noreferrer'
                   href='https://agabinete-js-game.netlify.app/'
                 >
                   View Live Demo
                 </a>
               </div>
             </div>
-            <img src={`../assets/project2.png`} alt='title' />
           </motion.div>
 
           <motion.div
@@ -137,11 +135,9 @@ const Projects = () => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <div
-              className='absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue'
-            >
-              <p className='text-2xl font-playfair'>Project 3</p>
+            <img src={`../assets/project3.png`} alt='title' />
+            <div className='mobile-description mt-2 text-center'>
+              <p className='text-2xl font-playfair'>PlanIt</p>
               <p>
                 This is the 3rd project that I made, this was made using React,
                 this is a planner/dashboard wherein you can input your upcoming
@@ -149,22 +145,23 @@ const Projects = () => {
               </p>
               <div className='flex gap-1 mt-2'>
                 <a
-                  className='bg-deepblue  text-black border border-black  bg-green rounded-2xl py-1 px-1 font-semibold'
+                  className='bg-deepblue  text-black border border-black  bg-green rounded-2xl py-1 px-1 font-semibold m-auto'
                   target='blank'
+                  rel='noreferrer'
                   href='https://github.com/AljoGabinete/planIt'
                 >
                   View Code
                 </a>
                 <a
-                  className='bg-deepblue  text-black border  border-black  bg-green rounded-2xl  py-1 px-1  font-semibold'
+                  className='bg-deepblue  text-black border  border-black  bg-green rounded-2xl  py-1 px-1  font-semibold m-auto'
                   target='blank'
+                  rel='noreferrer'
                   href='https://agabinete-react-app.netlify.app/'
                 >
                   View Live Demo
                 </a>
               </div>
             </div>
-            <img src={`../assets/project3.png`} alt='title' />
           </motion.div>
 
           <motion.div
@@ -178,11 +175,9 @@ const Projects = () => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <div
-              className='absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue'
-            >
-              <p className='text-2xl font-playfair'>Project 4</p>
+            <img src={`../assets/project4.png`} alt='title' />
+            <div className='mobile-description mt-2 text-center'>
+              <p className='text-2xl font-playfair'>Aboitiz Scholar Central</p>
               <p>
                 This is my fourth project and this was done as a team, we
                 created a scholarship management dashboard wherein the
@@ -193,22 +188,23 @@ const Projects = () => {
               </p>
               <div className='flex gap-1 mt-2'>
                 <a
-                  className='bg-deepblue  text-black border border-black  bg-green rounded-2xl py-1 px-1 font-semibold'
+                  className='bg-deepblue  text-black border border-black  bg-green rounded-2xl py-1 px-1 font-semibold m-auto'
                   target='blank'
+                  rel='noreferrer'
                   href='https://github.com/team-project-aljo-niel/Aboitiz-Scholars-Central'
                 >
                   View Code
                 </a>
                 <a
-                  className='bg-deepblue  text-black border  border-black  bg-green rounded-2xl  py-1 px-1  font-semibold'
+                  className='bg-deepblue  text-black border  border-black  bg-green rounded-2xl  py-1 px-1  font-semibold m-auto'
                   target='blank'
+                  rel='noreferrer'
                   href='https://aboitiz-scholars-central.onrender.com/'
                 >
                   View Live Demo
                 </a>
               </div>
             </div>
-            <img src={`../assets/project4.png`} alt='title' />
           </motion.div>
         </motion.div>
       </div>

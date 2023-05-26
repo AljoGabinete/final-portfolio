@@ -9,7 +9,9 @@ const Footer = () => {
         </div>
 
         <div className='flex justify-center align-middle'>
-          <p className='font-playfair  text-yellow'>Icons are from Flaticon</p>
+          <p className='font-playfair  text-yellow'>
+            Icons are from Flaticon & Icons8
+          </p>
         </div>
       </div>
     </footer>
