@@ -81,7 +81,7 @@ const Landing = ({ setSelectedPage }) => {
             className='bg-deepblue  text-white border border-green rounded-2xl py-3 px-7 font-semibold
            hover:bg-gradient-rainblue hover:text-black transition duration-400'
             target='blank'
-            href='https://drive.google.com/file/d/1nWqmG1qgfTVEasrraMFIpW-C3hrUjL_k/view'
+            href='https://drive.google.com/file/d/1p5CQ93Nefg8oSYINt1-so6KIxTtZgByH/view'
           >
             View my Resume
           </a>
